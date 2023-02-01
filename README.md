@@ -8,7 +8,7 @@ getpass ( input.txt + output ): python getpass.py input.txt output pass.txt
 <br/>
 getpass2 ( output ): python getpass2.py output pass_output.txt
 <br/>
-<h2>Problema 1 ( input.txt + output )<h2/>
+<h2> Problema 1 ( input.txt + output ) </h2>
 <br/>
 Este suficient sa rulam getpass.py cu argumentele cerute.
 <br/>
@@ -17,7 +17,7 @@ Script-ul citeste 30 de caractere din input.txt si output si face xor litera cu 
 Pentru a afla parola, luam primele doua secvente alaturate de la inceput, de forma parola[0:x] si parola[x:2x] (x = range(10, 16))<br/>
 Daca sunt egale, am aflat parola de lungime x.<br/>
 
-<h2>Problema 2 ( output )</h2>
+<h2> Problema 2 ( output )</h2>
   <br/>
 Script-ul getpass2.py se bazeaza pe ideea ca input.txt contine un text in limba romana, fiind prezente cifre si diferite simboluri.<br/>
 De asemenea, stim ca parola este formata doar din litere si cifre.<br/>
